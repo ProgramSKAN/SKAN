@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Firebase commands
+
+npm install -g firebase-tools
+firebase login
+firebase init
+ng build --prod
+
+{
+  "hosting": {
+    "site": "sandeepkandagatla",//"target": "sandeepkandagatla" array for multisite
+    "public": "public",
+    ...
+  }
+}
+
+firebase deploy --only hosting:sandeepkandagatla
+firebase open hosting:site 
