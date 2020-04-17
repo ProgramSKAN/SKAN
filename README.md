@@ -43,3 +43,10 @@ ng build --prod
 
 firebase deploy --only hosting:sandeepkandagatla
 firebase open hosting:site 
+
+## Mat Icons
+https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/
+
+
+## Build
+ng build --prod
